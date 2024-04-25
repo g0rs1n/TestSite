@@ -1,0 +1,298 @@
+.page-4{
+    margin-bottom: 120px;
+}
+.page-4__h3{
+    color: #bdbdbd;
+    font-family: var(--font-main);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+    margin-bottom: 60px;
+
+    @media (max-width: 469px){
+        font-size: 55px;
+    }
+    @media (max-width: 407px){
+        font-size: 45px;
+    }
+    @media (max-width: 340px){
+        font-size: 41px;
+    }
+}
+.page-4-content-1{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+    & .content-1-title{
+        display: flex;
+        flex-direction: column;
+        padding: 48px 78px 35px 79px;
+        gap: 8px;
+        // background: var(--accent);
+        background-repeat: no-repeat;
+        background-image: url(../img/photo/photo-title-content-1__page-4.png);
+
+        @media (max-width: 500px){
+            display: none;
+        }
+    }
+
+    @media (max-width: 849px){
+        justify-content: center;
+    }
+    @media (max-width: 681px){
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+.page-4-content-1__img{
+    @media (max-width: 1310px){
+        max-width: 500px;
+    }
+    @media (max-width: 1131px){
+        max-width: 430px;
+    }
+    @media (max-width: 1064px){
+        max-width: 400px;
+    }
+    @media (max-width: 1032px){
+        max-width: 350px;
+    }
+    @media (max-width: 983px){
+        display: none;
+    }
+    @media (max-width: 681px){
+        max-width: 550px;
+        display: block;
+    }
+    @media (max-width: 560px){
+        max-width: 500px;
+    }
+    @media (max-width: 510px){
+        max-width: 450px;
+    }
+    @media (max-width: 475px){
+        max-width: 420px;
+    }
+    @media (max-width: 428px){
+        max-width: 380px;
+    }
+    @media (max-width: 387px){
+        max-width: 330px;
+    }
+    @media (max-width: 331px){
+        max-width: 315px;
+    }
+}
+.content-1-title__h3{
+    color: #fff;
+    font-family: var(--font-main);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 100% */
+    max-width: 413px;
+}
+.content-1-title-link{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    & .content-1-title-link__p{
+        color: #fff;
+        font-family: var(--font-main);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 12px; /* 100% */
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    & .content-1-title-link__img{
+        padding-bottom: 3px;
+    }
+}
+
+.page-4-content-2{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+
+    @media (max-width: 681px){
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+.page-4-content-2__img-1{
+    @media (max-width: 1310px){
+        max-width: 240px;
+    }
+    @media (max-width: 1131px){
+        max-width: 220px;
+    }
+    @media (max-width: 1064px){
+        max-width: 210px;
+    }
+    @media (max-width: 1032px){
+        max-width: 190px;
+    }
+    @media (max-width: 983px){
+        max-width: 170px;
+    }
+    @media (max-width: 908px){
+        max-width: 150px;
+    }
+    @media (max-width: 849px){
+        max-width: 150px;
+    }
+    @media (max-width: 818px){
+        max-width: 150px;
+    }
+    @media (max-width: 755px){
+        max-width: 140px;
+    }
+    @media (max-width: 710px){
+        max-width: 135px;
+    }
+    @media (max-width: 681px){
+        max-width: 270px;
+    }
+    @media (max-width: 475px){
+        max-width: 240px;
+    }
+    @media (max-width: 428px){
+        max-width: 190px;
+    }
+}
+.page-4-content-2__img-2{
+    @media (max-width: 1310px){
+        max-width: 440px;
+    }
+    @media (max-width: 1131px){
+        max-width: 420px;
+    }
+    @media (max-width: 1064px){
+        max-width: 410px;
+    }
+    @media (max-width: 1032px){
+        max-width: 390px;
+    }
+    @media (max-width: 983px){
+        max-width: 370px;
+    }
+    @media (max-width: 908px){
+        max-width: 350px;
+    }
+    @media (max-width: 849px){
+        max-width: 335px;
+    }
+    @media (max-width: 818px){
+        max-width: 305px;
+    }
+    @media (max-width: 755px){
+        max-width: 285px;
+    }
+    @media (max-width: 710px){
+        max-width: 265px;
+    }
+    @media (max-width: 681px){
+        max-width: 470px;
+    }
+    @media (max-width: 475px){
+        max-width: 420px;
+    }
+    @media (max-width: 428px){
+        max-width: 380px;
+    }
+    @media (max-width: 387px){
+        max-width: 330px;
+    }
+    @media (max-width: 331px){
+        max-width: 315px;
+    }
+}
+.page-4-content-2__img-3{
+    @media (max-width: 1310px){
+        max-width: 360px;
+    }
+    @media (max-width: 1131px){
+        max-width: 330px;
+    }
+    @media (max-width: 1064px){
+        max-width: 320px;
+    }
+    @media (max-width: 1032px){
+        max-width: 310px;
+    }
+    @media (max-width: 983px){
+        max-width: 280px;
+    }
+    @media (max-width: 908px){
+        max-width: 260px;
+    }
+    @media (max-width: 849px){
+        max-width: 250px;
+    }
+    @media (max-width: 818px){
+        max-width: 220px;
+    }
+    @media (max-width: 755px){
+        max-width: 200px;
+    }
+    @media (max-width: 710px){
+        max-width: 190px;
+    }
+    @media (max-width: 681px){
+        max-width: 370px;
+    }
+    @media (max-width: 475px){
+        max-width: 330px;
+    }
+    @media (max-width: 428px){
+        max-width: 290px;
+    }
+}
+
+.page-4-link-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    & .page-4-link{
+        display: flex;
+        column-gap: 12px;
+        padding: 24px 40px 23px 39px;
+        background-color: var(--accent);
+        color: #fff;
+    }
+
+    @media (max-width: 1310px){
+        justify-content: flex-start;
+    }
+    @media (max-width: 681px){
+        justify-content: center;
+    }
+
+}
+.page-4-link__p{
+    font-family: var(--font-main);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    @media (max-width: 320px){
+        font-size: 9px;
+    }
+}
+.page-4-link__img{
+    padding-bottom: 2px;
+
+    @media (max-width: 320px){
+        padding-bottom: 4px;
+    }
+}

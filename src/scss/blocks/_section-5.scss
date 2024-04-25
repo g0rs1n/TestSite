@@ -1,0 +1,249 @@
+.page-5{
+    margin-bottom: 120px;
+}
+.page-5__h3{
+    color: #BDBDBD;
+    font-family: var(--font-main);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+    margin-bottom: 22px;
+
+    @media (max-width: 704px){
+        font-size: 57px;
+    }
+    @media (max-width: 625px){
+        font-size: 53px;
+    }
+    @media (max-width: 576px){
+        font-size: 48px;
+    }
+    @media (max-width: 527px){
+        font-size: 43px;
+    }
+    @media (max-width: 475px){
+        font-size: 38px;
+    }
+    @media (max-width: 423px){
+        font-size: 33px;
+    }
+    @media (max-width: 383px){
+        font-size: 28px;
+    }
+}
+.page-5-content{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 22px;
+
+    & .page-5-form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    @media (max-width: 681px){
+        justify-content: center;
+    }
+}
+.page-5-form__input{
+    background-color: #f3f3f3;
+    color: #8d8d8d;
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+}
+.input-1{
+    padding: 15px 341px 14px 21px;
+    
+    @media (max-width: 704px){
+        padding: 15px 240px 14px 21px;
+    }
+
+    @media (max-width: 625px){
+        padding: 15px 200px 14px 21px;
+    }
+    @media (max-width: 576px){
+        padding: 15px 170px 14px 21px;
+    }
+    @media (max-width: 527px){
+        padding: 15px 140px 14px 21px;
+    }
+    @media (max-width: 475px){
+        padding: 15px 100px 14px 21px;
+    }
+    @media (max-width: 423px){
+        padding: 15px 60px 14px 21px;
+    }
+    @media (max-width: 383px){
+        padding: 15px 40px 14px 21px;
+    }
+}
+.input-2{
+    padding: 14px 247px 14px 21px;
+
+    @media (max-width: 704px){
+        padding: 15px 220px 14px 21px;
+    }
+    @media (max-width: 625px){
+        padding: 15px 190px 14px 21px;
+    }
+    @media (max-width: 576px){
+        padding: 15px 160px 14px 21px;
+    }
+    @media (max-width: 527px){
+        padding: 15px 130px 14px 21px;
+    }
+    @media (max-width: 475px){
+        padding: 15px 90px 14px 21px;
+    }
+    @media (max-width: 423px){
+        padding: 15px 50px 14px 21px;
+    }
+    @media (max-width: 383px){
+        padding: 15px 35px 14px 21px;
+    }
+}
+.input-3{
+    padding: 14px 320px 15px 21px;
+
+    @media (max-width: 704px){
+        padding: 15px 280px 14px 21px;
+    }
+    @media (max-width: 625px){
+        padding: 15px 240px 14px 21px;
+    }
+    @media (max-width: 576px){
+        padding: 15px 200px 14px 21px;
+    }
+    @media (max-width: 527px){
+        padding: 15px 160px 14px 21px;
+    }
+    @media (max-width: 475px){
+        padding: 15px 120px 14px 21px;
+    }
+    @media (max-width: 423px){
+        padding: 15px 80px 14px 21px;
+    }
+    @media (max-width: 383px){
+        padding: 15px 50px 14px 21px;
+    }
+}
+.input-4{
+    padding: 14px 172px 14px 21px;
+
+    @media (max-width: 704px){
+        padding: 15px 120px 14px 21px;
+    }
+    @media (max-width: 625px){
+        padding: 15px 100px 14px 21px;
+    }
+    @media (max-width: 576px){
+        padding: 15px 70px 14px 21px;
+    }
+    @media (max-width: 527px){
+        padding: 15px 50px 14px 21px;
+    }
+    @media (max-width: 475px){
+        padding: 15px 30px 14px 21px;
+    }
+    @media (max-width: 423px){
+        padding: 15px 10px 14px 21px;
+    }
+    @media (max-width: 383px){
+        padding: 15px 10px 14px 21px;
+    }
+}
+.input-5{
+    padding: 14px 282px 116px 21px;
+
+    @media (max-width: 704px){
+        padding: 15px 220px 14px 21px;
+    }
+    @media (max-width: 625px){
+        padding: 15px 190px 14px 21px;
+    }
+    @media (max-width: 576px){
+        padding: 15px 160px 14px 21px;
+    }
+    @media (max-width: 527px){
+        padding: 15px 120px 14px 21px;
+    }
+    @media (max-width: 475px){
+        padding: 15px 80px 14px 21px;
+    }
+    @media (max-width: 423px){
+        padding: 15px 40px 14px 21px;
+    }
+    @media (max-width: 383px){
+        padding: 15px 30px 14px 21px;
+    }
+}
+
+.page-5-form__input::placeholder{
+    color: #8d8d8d;
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+}
+.page-5-content__img{
+    @media (max-width: 1181px){
+        display: none;
+    }
+}
+.button-form{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 21px;
+
+    & .button-form__btn{
+        max-width: 222px;
+    }
+
+    @media (max-width: 681px){
+        display: flex;
+        align-items: center;
+    }
+}
+.button-form__label{
+    color: var(--accent);
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    max-width: 331px;
+
+    @media (max-width: 383px){
+        max-width: 250px;
+    }
+}
+
+.button-form__btn{
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent);
+    align-items: center;
+    column-gap: 12px;
+    padding: 30px 49px 29px 47px;
+    color: #fff;
+    font-family: var(--font-main);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    & .button-form__img{
+        padding-bottom: 4px;
+    }
+}
